@@ -1,1 +1,4 @@
+title: "Unsupervised Representation Disentanglement using Cross Domain Features and Adversarial Learning in Variational Autoencnder based Voice Conversion"
+logo: /imgs/cdvae-gan-cls.png
+description: "Demo page for paper: Unsupervised Representation Disentanglement using Cross Domain Features and Adversarial Learning in Variational Autoencnder based Voice Conversion"
 theme: jekyll-theme-minimal
