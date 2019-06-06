@@ -2,7 +2,7 @@
 
 _Wen-Chin Huang, Hao Luo, Hsin-Te Hwang, Chen-Chou Lo, Yu-Huai Peng, Yu Tsao, Hsin-Min Wang,_ **Unsupervised Representation Disentanglement using Cross Domain Features and Adversarial Learning in Variational Autoencnder based Voice Conversion**, June 2019
 
-## CDVAE-GAN-CLS
+## CDVAE-GAN-CLS-VC
 
 ![methods](/imgs/entangled-vc.png)
 
@@ -29,7 +29,7 @@ We evaluated our proposed framework on the **Voice Conversion Challenge 2018 (VC
 |:--|:--|
 |Source|<audio controls="controls"><source type="audio/wav" src="samples/natural/SF1-30001.wav"></source></audio>|
 |Target|<audio controls="controls"><source type="audio/wav" src="samples/natural/TF1-30001.wav"></source></audio>|
-|CDVAE|<audio controls="controls"><source type="audio/wav" src="samples/cdvae/SF1-TF1-30001-gv.wav"></source></audio>|
+|CDVAE+GV|<audio controls="controls"><source type="audio/wav" src="samples/cdvae/SF1-TF1-30001-gv.wav"></source></audio>|
 |CDVAE-GAN-MCC|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-gan/SF1-TF1-30001.wav"></source></audio>|
 |CDVAE-CLS-GAN-MCC|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-cls-gan/SF1-TF1-30001.wav"></source></audio>|
 
@@ -39,7 +39,7 @@ We evaluated our proposed framework on the **Voice Conversion Challenge 2018 (VC
 |:--|:--|
 |Source|<audio controls="controls"><source type="audio/wav" src="samples/natural/SF1-30001.wav"></source></audio>|
 |Target|<audio controls="controls"><source type="audio/wav" src="samples/natural/TM1-30001.wav"></source></audio>|
-|CDVAE|<audio controls="controls"><source type="audio/wav" src="samples/cdvae/SF1-TM1-30001-gv.wav"></source></audio>|
+|CDVAE+GV|<audio controls="controls"><source type="audio/wav" src="samples/cdvae/SF1-TM1-30001-gv.wav"></source></audio>|
 |CDVAE-GAN-MCC|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-gan/SF1-TM1-30001.wav"></source></audio>|
 |CDVAE-CLS-GAN-MCC|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-cls-gan/SF1-TM1-30001.wav"></source></audio>|
 
@@ -49,7 +49,7 @@ We evaluated our proposed framework on the **Voice Conversion Challenge 2018 (VC
 |:--|:--|
 |Source|<audio controls="controls"><source type="audio/wav" src="samples/natural/SM1-30001.wav"></source></audio>|
 |Target|<audio controls="controls"><source type="audio/wav" src="samples/natural/TF1-30001.wav"></source></audio>|
-|CDVAE|<audio controls="controls"><source type="audio/wav" src="samples/cdvae/SM1-TF1-30001-gv.wav"></source></audio>|
+|CDVAE+GV|<audio controls="controls"><source type="audio/wav" src="samples/cdvae/SM1-TF1-30001-gv.wav"></source></audio>|
 |CDVAE-GAN-MCC|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-gan/SM1-TF1-30001.wav"></source></audio>|
 |CDVAE-CLS-GAN-MCC|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-cls-gan/SM1-TF1-30001.wav"></source></audio>|
 
@@ -59,6 +59,6 @@ We evaluated our proposed framework on the **Voice Conversion Challenge 2018 (VC
 |:--|:--|
 |Source|<audio controls="controls"><source type="audio/wav" src="samples/natural/Sm1-30001.wav"></source></audio>|
 |Target|<audio controls="controls"><source type="audio/wav" src="samples/natural/TM1-30001.wav"></source></audio>|
-|CDVAE|<audio controls="controls"><source type="audio/wav" src="samples/cdvae/SM1-TM1-30001-gv.wav"></source></audio>|
+|CDVAE+GV|<audio controls="controls"><source type="audio/wav" src="samples/cdvae/SM1-TM1-30001-gv.wav"></source></audio>|
 |CDVAE-GAN-MCC|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-gan/SM1-TM1-30001.wav"></source></audio>|
 |CDVAE-CLS-GAN-MCC|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-cls-gan/SM1-TM1-30001.wav"></source></audio>|
